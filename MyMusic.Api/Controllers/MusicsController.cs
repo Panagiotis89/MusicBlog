@@ -27,5 +27,7 @@ namespace MyMusic.Api.Controllers
             var musics = _musicService.GetAllWithArtists();
             return Ok(musics);
         }
+
+        //api/updatemusic
     }
 }
